@@ -1,0 +1,76 @@
+.instagram-post {
+    width: 300px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    border: 1px solid gray;
+     border-radius: 10px;     
+   
+  }
+  
+  .instagram-post__header {
+    padding: .5rem;
+    height: 10%;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+  }
+  
+  .instagram-post__icons-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 5px;
+  }
+  
+  .instagram-post__title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .instagram-post__image {
+    height: 50%;
+  }
+  
+  .instagram-post__buttons {
+    width: 10%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+     
+  }
+  
+  .instagram-post__body {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 10px;
+    font-family: "Roboto", sans-serif;
+  
+  }
+  
+  .instagram-post__like-text {
+    font-size: small;
+  }
+  
+  .instagram-post__description {
+    font-size: small;
+  }
+  
+  .instagram-post__highlighted-text {
+    font-weight: 700;
+  }
+
+  
+  
